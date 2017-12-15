@@ -1,1 +1,3 @@
-# onitama
+# Onitama
+
+This project is intended for educational purposes only.
