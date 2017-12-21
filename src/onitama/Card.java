@@ -42,4 +42,7 @@ public class Card {
 		this.moves = moves;
 	}
 	
+	public String toString() {
+		return this.name + " | " + this.isRed + " | " + this.moves;
+	}
 }
