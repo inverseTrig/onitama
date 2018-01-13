@@ -36,8 +36,8 @@ public class Deck {
 				String cells[] = line.split(",");
 				
 				boolean isRed = true;
-				
-				int[][] moves = new int[5][2];
+				int moveSet = cells.length / 2 - 1;
+				int[][] moves = new int[moveSet][2];
 				if (!cells[1].equalsIgnoreCase("red")) {
 					isRed = false;
 				}

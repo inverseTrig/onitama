@@ -12,6 +12,7 @@ public class Onitama {
 		System.out.println(deck);
 		
 		System.out.println(deck.getDeck().size());
+		
 	}
 
 }

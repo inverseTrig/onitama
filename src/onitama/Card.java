@@ -43,6 +43,14 @@ public class Card {
 	}
 	
 	public String toString() {
-		return this.name + " | " + this.isRed + " | " + this.moves;
+		String ret = this.name + "\t";
+		if (this.getName().length() < 8) {ret += "\t";}
+		ret +=  "| " + this.isRed + "\t| ";
+		
+		for (int i = 0; i < this.getMoves().length; i++) {
+			ret += this.getMoves()[i][0] + " " + this.getMoves()[i][1] + "\t| ";
+		}
+		
+		return ret;
 	}
 }
