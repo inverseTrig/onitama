@@ -25,5 +25,10 @@ public class Pawn {
 	public void setMaster(boolean isMaster) {
 		this.isMaster = isMaster;
 	}
+
+	@Override
+	public String toString() {
+		return "Pawn [isRed=" + isRed + ", isMaster=" + isMaster + "]";
+	}
 	
 }
