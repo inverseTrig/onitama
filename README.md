@@ -4,7 +4,6 @@ Onitama is table-top board game that involves two players that share five move s
 
 When a Master Pawn reaches the enemy's gateway, a victor emerges. Otherwise, like Chess, the Master Pawn can be taken down to victory.
 
-More information about the board game can be found here.
-https://boardgamegeek.com/boardgame/160477/onitama
+More information about the board game can be found here: https://boardgamegeek.com/boardgame/160477/onitama
 
 This project is intended for educational purposes only.
